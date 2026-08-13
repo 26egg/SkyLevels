@@ -1,0 +1,20 @@
+name: SkyLevels
+version: 1.0.0
+main: me.egg.skylevels.SkyLevels
+api-version: '1.21'
+author: 26egg
+description: A customizable SkyBlock leveling and progression plugin.
+
+commands:
+  skylevels:
+    description: Main SkyLevels command.
+    usage: /skylevels
+    aliases:
+      - sl
+      - level
+      - levels
+
+permissions:
+  skylevels.admin:
+    description: Allows access to SkyLevels admin commands.
+    default: op
